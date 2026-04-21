@@ -8,7 +8,7 @@ int main() {
     cin >> nomor;
 
     int panjang = nomor.length();
-    bool valid_format = false;
+    bool valid_format;
     string tipe = "";
 
     if (panjang == 14 && nomor[0] == '6' && nomor[1] == '5') {
