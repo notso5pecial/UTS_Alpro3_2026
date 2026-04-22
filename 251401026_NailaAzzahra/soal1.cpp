@@ -47,3 +47,10 @@ int main() {
     return 0;
 }
 
+// nomor dibaca sebagai string bukan int karena perlu akses digit satu-satu
+// valid_format tidak perlu diinisialisasi karena semua cabang if-else sudah assign nilainya
+// digit - '0' digunakan untuk mengubah karakter angka jadi nilai int yang sebenarnya
+// loop berjalan dari kanan ke kiri pakai nomor[panjang-1-i] supaya mulai dari digit terakhir
+// i % 2 == 1 artinya posisi ke-2 dari kanan, ke-4, ke-6, dst yang perlu dikali 2
+// kalau total % 10 == 0 berarti kartu valid sesuai aturan algoritma Luhn
+
