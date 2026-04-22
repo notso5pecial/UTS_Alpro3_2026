@@ -49,3 +49,9 @@ int main() {
     return 0;
 }
 
+// streak dihitung dengan counter terpisah untuk A dan B
+// setiap kali pemain lain menang atau seri, streak pemain tersebut direset ke 0
+// streak % 3 == 0 artinya sudah menang kelipatan 3 kali berturut-turut, bukan hanya tepat 3
+// char hasil = s[i] dipakai supaya lebih mudah dibaca daripada langsung pakai s[i]
+// tidak ada prompt input karena format soal memang langsung masukkan angka dan string
+
