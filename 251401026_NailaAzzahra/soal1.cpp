@@ -3,13 +3,11 @@
 using namespace std;
 
 int main() {
-    string nomor;
+    string nomor, tipe;
+    bool valid_format;
     cout << "Masukkan nomor kartu digital: ";
     cin >> nomor;
-
     int panjang = nomor.length();
-    bool valid_format;
-    string tipe = "";
 
     if (panjang == 14 && nomor[0] == '6' && nomor[1] == '5') {
         tipe = "NUSANTARA";
