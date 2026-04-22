@@ -27,7 +27,7 @@ int main() {
             if (streak_b % 3 == 0) {
                 poin_b = poin_b + 2;
             }
-        } else (hasil == 'C') {
+        } else if (hasil == 'C') {
             poin_a   = poin_a + 1;
             poin_b   = poin_b + 1;
             streak_a = 0;
