@@ -70,3 +70,9 @@ int main() {
 
     return 0;
 }
+
+// validasi dilakukan dua tahap: cek panjang & semua digit dulu, lalu cek isi kodenya
+// loop cek karakter pakai range ASCII '0'-'9' biar bisa deteksi huruf atau simbol
+// kode dipotong manual pakai - '0' karena inputnya string bukan int
+// if bertingkat dipakai untuk kombinasi hari x pelanggan supaya tidak perlu 9 kondisi terpisah
+// long long dipakai untuk antisipasi hasil perkalian yang besar
