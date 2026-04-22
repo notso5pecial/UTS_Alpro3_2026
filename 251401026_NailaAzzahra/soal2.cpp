@@ -75,3 +75,10 @@ int main() {
 
     return 0;
 }
+
+// kode dibaca sebagai string supaya bisa dipotong per digit pakai - '0' dan substr
+// substr(6, 4) artinya ambil 4 karakter mulai dari index ke-6
+// waktu diubah ke menit dulu supaya perhitungan selisih lebih mudah
+// selisih negatif berarti melewati tengah malam, solusinya tambah 1440 menit
+// durasi dibulatkan ke atas: kalau ada sisa menit sekecil apapun, dihitung 1 jam penuh
+// ternary operator (? :) dipakai untuk tambah "0" di depan angka yang kurang dari 10
